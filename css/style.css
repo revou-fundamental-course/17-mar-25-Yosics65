@@ -1,7 +1,11 @@
 /* ini css eksternalnya */
 
 body {
-  font-family: fantasy;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .main-header > h1 {
@@ -49,6 +53,8 @@ main {
   width: 160px;
   height: 100px;
   justify-self: center;
+  margin: 10px auto;
+  border: 1px solid #ccc;
 }
 
 .calculate-content {
@@ -63,4 +69,38 @@ section {
 
 footer {
   text-align: center;
+}
+
+.persegi-box {
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.persegi-panjang-box {
+  background-color: rgb(128, 137, 240); /* Warna berbeda dari persegi */
+  padding: 20px;
+  border: 2px solid red;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.hasil {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkred;
+  margin-top: 10px;
 }
