@@ -79,3 +79,37 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Reset Luas Persegi
+  document.getElementById("reset-luas").addEventListener("click", function () {
+    document.getElementById("sisi-luas").value = "";
+    document.getElementById("hasil-luas").innerHTML = "";
+  });
+
+  // Reset Keliling Persegi
+  document
+    .getElementById("reset-keliling")
+    .addEventListener("click", function () {
+      document.getElementById("sisi-keliling").value = "";
+      document.getElementById("hasil-keliling").innerHTML = "";
+    });
+
+  // Reset Luas Persegi Panjang
+  document
+    .getElementById("reset-luas-pp")
+    .addEventListener("click", function () {
+      document.getElementById("panjang").value = "";
+      document.getElementById("lebar").value = "";
+      document.getElementById("hasil-luas-persegi-panjang").innerHTML = "";
+    });
+
+  // Reset Keliling Persegi Panjang
+  document
+    .getElementById("reset-keliling-pp")
+    .addEventListener("click", function () {
+      document.getElementById("panjang-keliling").value = "";
+      document.getElementById("lebar-keliling").value = "";
+      document.getElementById("hasil-keliling-persegi-panjang").innerHTML = "";
+    });
+});

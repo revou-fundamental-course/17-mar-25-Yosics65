@@ -116,3 +116,23 @@ input {
   color: darkred;
   margin-top: 10px;
 }
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#reset-luas,
+#reset-keliling,
+#reset-luas-pp,
+#reset-keliling-pp {
+  background-color: red;
+  color: white;
+}
