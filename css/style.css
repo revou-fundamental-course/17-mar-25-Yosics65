@@ -45,8 +45,20 @@ main {
   padding: 16px;
 }
 
-.section-image {
+.section-image-persegi {
   background-image: url(../assets/download.png);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  width: 160px;
+  height: 100px;
+  justify-self: center;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+
+.section-image-persegi-panjang {
+  background-image: url(../assets/persegipanjang.png);
   background-size: cover;
   background-position: center;
   background-color: black;
